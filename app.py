@@ -41,9 +41,9 @@ sdg_list = [
 {"code": "11", "name": "Sustainable cities and communities", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-11-1024x1024.png"},
 {"code": "12", "name": "Responsible consumption and production", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-12-1024x1024.png"},
 {"code": "13", "name": "Climate action", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-13-1024x1024.png"},
-{"code": "14", "name": "Life below water", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-14-1024x1024.png"},
+{"code": "14", "name": "Life below water (Not Relevant)", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-14-1024x1024.png"},
 {"code": "15", "name": "Life on land", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-15-1024x1024.png"},
-{"code": "16", "name": "Peace, justice and strong institutions", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-16-1024x1024.png"},
+{"code": "16", "name": "Peace, justice and strong institutions (Not Relevant)", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-16-1024x1024.png"},
 {"code": "17", "name": "Partnerships for the goals", "icon": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Goal-17-1024x1024.png"}
 ]
 
@@ -104,6 +104,7 @@ if selected_year in st.session_state.yearly_report:
     st.pyplot(fig)
 
     display_sdg_grid(outstanding_sdgs, "🚧 Outstanding SDGs")
+
 
 
 
