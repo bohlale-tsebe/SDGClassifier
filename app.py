@@ -51,7 +51,7 @@ env_sdgs = {"13","14","15","17","7","12","11","6"}
 soc_sdgs = {"1","5","4","8","10","17","2","3","16","11","6"}
 ecn_sdgs = {"9","1","5","4","8","10","17","7","12"}
 
-year = st.selectbox("Select The Year Of The Report You Are Uploading", list(range(2022, 2024)))
+year = st.selectbox("Select The Year Of The Report You Are Uploading", list(range(2022, 2026)))
 uploaded_file = st.file_uploader("Upload your report (TXT)", type=["txt"])
 if uploaded_file:
     lines = uploaded_file.read().decode("utf-8").splitlines()
@@ -104,6 +104,7 @@ if selected_year in st.session_state.yearly_report:
     st.pyplot(fig)
 
     display_sdg_grid(outstanding_sdgs, "🚧 Outstanding SDGs")
+
 
 
 
